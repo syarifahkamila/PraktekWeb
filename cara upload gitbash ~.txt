@@ -1,0 +1,76 @@
+LENOVO@LAPTOP-BEMLMGH1 MINGW64 ~
+$ pwd
+/c/Users/LENOVO
+
+LENOVO@LAPTOP-BEMLMGH1 MINGW64 ~
+$ cd c:
+
+LENOVO@LAPTOP-BEMLMGH1 MINGW64 /c
+$ cd xampp/htdocs/git-pw2
+
+LENOVO@LAPTOP-BEMLMGH1 MINGW64 /c/xampp/htdocs/git-pw2 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    praktikum01
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        tes1/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+LENOVO@LAPTOP-BEMLMGH1 MINGW64 /c/xampp/htdocs/git-pw2 (main)
+$ git add tes1
+
+LENOVO@LAPTOP-BEMLMGH1 MINGW64 /c/xampp/htdocs/git-pw2 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   tes1/index.html
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    praktikum01
+
+
+LENOVO@LAPTOP-BEMLMGH1 MINGW64 /c/xampp/htdocs/git-pw2 (main)
+$ git commit -m 'latihan'
+[main b8486f5] latihan
+ 1 file changed, 12 insertions(+)
+ create mode 100644 tes1/index.html
+
+LENOVO@LAPTOP-BEMLMGH1 MINGW64 /c/xampp/htdocs/git-pw2 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    praktikum01
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+LENOVO@LAPTOP-BEMLMGH1 MINGW64 /c/xampp/htdocs/git-pw2 (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 517 bytes | 517.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/syarifahkamila/pemweb2.git
+   a6ac1d3..b8486f5  main -> main
+
+LENOVO@LAPTOP-BEMLMGH1 MINGW64 /c/xampp/htdocs/git-pw2 (main)
+$
