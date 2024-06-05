@@ -9,7 +9,10 @@ class Pasien extends Model
 {
     use HasFactory;
 
+    // Nama tabel yang digunakan
     protected $table = 'pasiens';
+
+    // Kolom yang dapat diisi
     protected $fillable = [
         'kode',
         'nama',
@@ -20,6 +23,5 @@ class Pasien extends Model
         'alamat',
     ];
 
-
-
+    public $timestamp = false;
 }
